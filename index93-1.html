@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html lang="ru"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Самостоятельная работа 1</title> 
+  <style type="text/css">
+    div{
+      padding-left:100px;
+    }
+    img{
+        width: 50px;
+    }
+    </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+ <script>  
+   $(document).ready(function(){ 
+    $("button").click(function(){ 
+    $("#text").animate({left: '0px'}, "slow");
+    }); 
+   }); 
+  </script>  
+  <script>  
+    $(document).ready(function(){ 
+     $("img").click(function(){ 
+     $("img").animate({top:'30px'}, "slow");
+     }); 
+    }); 
+   </script>  
+ </head> 
+ <body> 
+  <button> Запустить </button> 
+ <div > Абзац 1</div> 
+ <img src="yellow..png">
+ <div > Абзац 2</div> 
+ <img src="green.png">
+ <div id="text"> Абзац 3</div> 
+ <img src="yellow..png">
+ <div > Абзац 4</div> 
+ <img src="green.png">
+ <div id="text"> Абзац 5</div> 
+ <img src="yellow..png">
+ </body> 
+</html>
